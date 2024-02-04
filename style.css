@@ -22,7 +22,7 @@
 
 .container {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -160,6 +160,9 @@ p {
         width: 200px;
         height: 200px;
     }
+    footer > h2{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -167,9 +170,14 @@ p {
         width: 180px;
         height: 180px;
     }
+
     .header{
-        font-size: 1.8rem;
+        font-size: 1rem;
     }
+    footer > h2{
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (max-width:400px) {
@@ -181,7 +189,11 @@ p {
     .header{
         font-size: 1.8rem;
     }
+    footer > h2{
+        font-size: 1rem;
+    }
 }
+
 
 @media screen and (max-width:350px) {
     .dice-img {
@@ -190,6 +202,9 @@ p {
     }
     .header{
         font-size: 1.8rem;
+    }
+    footer > h2{
+        font-size: 1rem;
     }
 }
 
@@ -201,6 +216,9 @@ p {
     .header{
         font-size: 1.8rem;
     }
+    footer > h2{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width:250px) {
@@ -211,4 +229,19 @@ p {
     .header{
         font-size: 1.8rem;
     }
+    footer > h2{
+        font-size: 1rem;
+    }
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: gold;
+    text-shadow: 3px 3px silver;
 }
