@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    color: gold;
+    text-shadow: 5px 5px silver;
+
+
+}
+
+.container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+
+
+
+
+}
+
+.dice {
+    width: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+
+.dice-para {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.dice-img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+
+
+}
+
+.dice-img>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+button {
+
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-shadow: 1px 1px silver;
+    padding: 10px;
+    box-shadow: rgba(6, 47, 88, 0.2) 0px 8px 24px;
+
+}
+
+button:active {
+    background-color: green;
+    color: white;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: gold;
+    text-shadow: 1px 1px silver;
+}
+
+@media screen and (max-width:800px) {
+    .dice-img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .dice-img {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .dice-img {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .dice-img {
+        width: 310px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .dice-img {
+        width: 280px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .dice-img {
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .dice-img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .dice-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .dice-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .dice-img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .dice-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:250px) {
+    .dice-img {
+        width: 100px;
+        height: 100px;
+    }
+}
