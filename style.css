@@ -162,7 +162,9 @@ p {
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
+
 }
 
 @media screen and (max-width:450px) {
@@ -172,10 +174,11 @@ p {
     }
 
     .header{
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
 
 }
@@ -191,6 +194,7 @@ p {
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
 }
 
@@ -205,6 +209,7 @@ p {
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
 }
 
@@ -218,6 +223,7 @@ p {
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
 }
 
@@ -231,11 +237,13 @@ p {
     }
     footer > h2{
         font-size: 1rem;
+        text-shadow: 1px 1px silver;
     }
 }
 
 footer{
-    margin-top: 10px;
+
+    margin-top: 20px;
     width: 100%;
     display: flex;
     align-items: center;
