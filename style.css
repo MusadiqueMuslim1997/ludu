@@ -143,7 +143,8 @@ p {
         width: 240px;
         height: 240px;
     }
-    .header{
+
+    .header {
         font-size: 2rem;
     }
 }
@@ -160,7 +161,8 @@ p {
         width: 200px;
         height: 200px;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
@@ -173,10 +175,11 @@ p {
         height: 180px;
     }
 
-    .header{
+    .header {
         font-size: 1.8rem;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
@@ -187,12 +190,14 @@ p {
     .dice-img {
         width: 160px;
         height: 160px;
-        
+
     }
-    .header{
+
+    .header {
         font-size: 1.8rem;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
@@ -204,10 +209,12 @@ p {
         width: 140px;
         height: 140px;
     }
-    .header{
+
+    .header {
         font-size: 1.8rem;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
@@ -218,10 +225,12 @@ p {
         width: 120px;
         height: 120px;
     }
-    .header{
+
+    .header {
         font-size: 1.8rem;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
@@ -232,16 +241,18 @@ p {
         width: 100px;
         height: 100px;
     }
-    .header{
+
+    .header {
         font-size: 1.8rem;
     }
-    footer > h2{
+
+    footer>h2 {
         font-size: 1rem;
         text-shadow: 1px 1px silver;
     }
 }
 
-footer{
+footer {
 
     margin-top: 20px;
     width: 100%;
