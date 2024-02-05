@@ -13,13 +13,13 @@ start = () => {
     document.getElementById("player-2").setAttribute("src", dice)
 
 
-    if(player1 > player2){
+    if (player1 > player2) {
         document.querySelector("h1").innerHTML = "Player-1 Won!"
     }
-    else if(player2 > player1){
+    else if (player2 > player1) {
         document.querySelector("h1").innerHTML = "Player-2 Won!"
     }
-    else{
+    else {
         document.querySelector("h1").innerHTML = "Draw!"
     }
 
